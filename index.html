@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Address Books</title>
+</head>
+<body>
+
+  <!-- When you click this button, the posts collected in the fetch request will be logged in the console in your devtools tray -->
+
+  <!-- When you click this button the posts collected from the fetch request will be displayed below in the ul element with the id='all-posts' -->
+  <button onclick="displaySingleUser()">display a Single User</button>
+  <button onclick="displayFiveUsers()">display Five Users</button>
+  <button onclick="consolePosts()">Console Users</button>
+  <div>
+    <h3>Users</h3>
+    <ul id='one-user'></ul>
+  </div>
+  <div>
+    <h3>Five Posts</h3>
+    <ul id='five-posts'></ul>
+  </div>
+  <div>
+    <h3>Users</h3>
+    <ul id='user-spaces'></ul>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
