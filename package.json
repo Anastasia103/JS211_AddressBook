@@ -1,0 +1,23 @@
+{
+  "name": "js211_addressbook",
+  "version": "1.0.0",
+  "description": "Read these instructions and understand the requirements FIRST\r Whiteboard your app\r Make a code plan\r Pseudo code and then translate to JavaScript\r Create a new repo (name it descriptively well), clone it to your local machine and share it with your partner\r Open the directory and create an index.html and main.js file to fetch a user and display them one at at time\r Use the API: https://randomuser.me/api/ to fetch a user now\r use fetch",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha --no-timeouts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anastasia103/JS211_AddressBook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anastasia103/JS211_AddressBook/issues"
+  },
+  "homepage": "https://github.com/Anastasia103/JS211_AddressBook#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "mocha": "^10.0.0"
+  }
+}
